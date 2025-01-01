@@ -1,2 +1,2 @@
-# C-ng-c-chuy-n-i-c-b-n-ch-Qu-c-ng-sang-H-n-N-m
+# Công cụ chuyển đổi cơ bản Quốc ngữ sang Hán Nôm
 Dự án đầu tay bằng Java
