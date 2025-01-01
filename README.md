@@ -1,5 +1,5 @@
 # Công cụ chuyển đổi cơ bản Quốc ngữ sang Hán Nôm
-Dự án đầu tay bằng Java của Liu2k5, có gì tớ nên cải thiện, mọi người đóng góp nhiệt tình ạ.
+Dự án đầu tay bằng Java của Liu2k5, với đam mê về hệ thống chữ viết của ông cha.
 
 # Tóm tắt
 Chương trình có chức năng chuyển văn bản Quốc ngữ sang văn bản Hán Nôm một cách cơ bản.
@@ -10,18 +10,18 @@ Dữ liệu đầu vào là trường nhập văn bản Quốc ngữ, sau khi nh
 
 
 # Mã nguồn
-- Word.java:  Xác định các thành phần cơ bản để xác định một "chữ", có thể là từ đơn
-- WordPair.java:  Đơn vị cặp chữ tạo nên từ ghép
-- WordGroup.java:  Là tập hợp của nhiều hơn hai "chữ", là từ ghép hoặc cụm từ
-- NumbersAndPunctuations:  Chuyển các dấu câu trong văn bản Quốc ngữ sang các dấu câu trong văn bản Hán Nôm tương ứng
-- TextProcessing:  Có chức năng xử lí văn bản gốc trở nên đơn giản cho việc xử lí của chương trình
-- Dictionary:  Đảm nhậm các công việc xử lí chính như nhập dữ liệu, phân tích, và dựa vào đó để chuyển đổi văn bản
-- View:  Giao diện đồ họa người dùng cho chương trình
-- Model:  Listenner cho lớp View
+- Word.java:  Xác định các thành phần cơ bản để xác định một "chữ", có thể là từ đơn.
+- WordPair.java:  Đơn vị cặp chữ tạo nên từ ghép.
+- WordGroup.java:  Là tập hợp của nhiều hơn hai "chữ", là từ ghép hoặc cụm từ.
+- NumbersAndPunctuations:  Chuyển các dấu câu trong văn bản Quốc ngữ sang các dấu câu trong văn bản Hán Nôm tương ứng.
+- TextProcessing:  Có chức năng xử lí văn bản gốc trở nên đơn giản cho việc xử lí của chương trình.
+- Dictionary:  Đảm nhậm các công việc xử lí chính như nhập dữ liệu, phân tích, và dựa vào đó để chuyển đổi văn bản.
+- View:  Giao diện đồ họa người dùng cho chương trình.
+- Model:  Listenner cho lớp View.
 
 # Dữ liệu đi kèm
-- qngu.txt: Tệp chứa các văn bản Quốc ngữ đã được tách sẵn
-- hnom.txt: Tệp chứa các văn bản Hán Nôm tương ứng với mỗi đoạn văn bản Quốc ngữ
+- qngu.txt: Tệp chứa các văn bản Quốc ngữ đã được tách sẵn.
+- hnom.txt: Tệp chứa các văn bản Hán Nôm tương ứng với mỗi đoạn văn bản Quốc ngữ.
 Dữ liệu được tớ sưu tầm từ nhiều nguồn, và các văn bản được tớ xây dựng dựa trên việc chọn lọc chữ Hán/ Nôm sao cho có hệ thống, nhưng chưa thể gọi là "chuẩn hóa".
 
 # "Lời sau cùng"
