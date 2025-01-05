@@ -447,11 +447,23 @@ public class Dictionary {
      */
     public int getWordGroupID(int[] wordGroup) {
         for (int i = 0; i < wordGroups.size(); i++) {
-            if (wordGroups.get(i).getGroup().equals(wordGroup)) {
+            if (isEqualIntArray(wordGroups.get(i).getGroup(), wordGroup)) {
                 return i;
             }
         }
         return -1;
+    }
+
+    public boolean isEqualIntArray(int[] array1, int[] array2) {
+        if (array1.length != array2.length) {
+            return false;
+        }
+        for (int i = 0; i < array1.length; i++) {
+            if (array1[i] != array2[i]) {
+                return false;
+            }
+        }
+        return true;
     }
 
     /**
@@ -538,7 +550,7 @@ public class Dictionary {
                             // compares to the previous value, if it doesnt change,
                             // it means there are no more changable places in sequence
                             while (posInString != -1 && posInString != posInStringPrevTime
-                                    && posInString + currentIDSequence.length >= mark.length) {
+                                    && posInString + currentIDSequence.length <= mark.length) {
                                 // scans all sililar cases in the sequence.
                                 // when the sequence given from analysed lists no longer have available to be
                                 // in the applied sequence (Out of bound)
@@ -592,12 +604,9 @@ public class Dictionary {
 
                     int posInStringPrevTime = -1;
                     // compares to the previous value, if it doesnt change, it means there are no more changable places in sequence
-                    while (posInString != -1 && posInString != posInStringPrevTime) {
-                        if (posInString + 1 >= mark.length) {
-                            break;
-                            // ends processing when Out Of Bound appears
-                        }
-
+                    while (posInString != -1 && posInString != posInStringPrevTime && posInString + 1 < mark.length) {
+                        // ends processing when Out Of Bound appears
+                        
                         posInStringPrevTime = posInString;
 
 
