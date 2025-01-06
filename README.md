@@ -34,8 +34,8 @@ Dữ liệu được tớ sưu tầm từ nhiều nguồn, và các văn bản �
 + https://www.youtube.com/watch?v=PYVmFEJQDKU: bản dịch lời bài hát Starduster (JimmyThumb-P)
 + https://vi.wikipedia.org/wiki/Th%E1%BB%9Di_ti%E1%BA%BFt: nội dung trang Wikipedia về Thời tiết
 + https://vi.wikipedia.org/wiki/Trung_t%C3%A2m_Th%C6%B0%C6%A1ng_m%E1%BA%A1i_Th%E1%BA%BF_gi%E1%BB%9Bi_(1973%E2%80%932001): nội dung trang Wikipedia về Trung tâm Thương mại Thế giới (1973–2001)
-+ https://www.asuswebstorage.com/navigate/a/#/s/4188FA6CCDF04CA2B46AEDBE06CA9381Y: dữ liệu các từ trong tiếng Việt của Ủy ban phục sinh Hán Nôm Việt Nam
-+ https://github.com/ryanphung/chinese-hanviet-cognates/tree/master: dữ liệu các từ Hán Việt
++ https://www.asuswebstorage.com/navigate/a/#/s/4188FA6CCDF04CA2B46AEDBE06CA9381Y: dữ liệu các từ trong tiếng Việt (Ủy ban phục sinh Hán Nôm Việt Nam)
++ https://github.com/ryanphung/chinese-hanviet-cognates/tree/master: dữ liệu các từ Hán Việt (ryanphung)
 
 # "Lời sau cùng"
 - Vì sự hạn chế về kĩ năng lập trình cũng như về thời gian của tớ, nên chương trình chưa có lượng thông tin đủ lớn, chưa đủ "thông minh" để xử lí chính xác toàn bộ văn bản. Tuy nhiên, tớ vẫn sẽ tiếp tục cố gắng để tiếp tục phát triển chương trình, cũng như xây dựng thêm những đoạn văn bản mẫu.
